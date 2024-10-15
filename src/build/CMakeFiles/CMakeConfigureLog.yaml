@@ -1,0 +1,2037 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.11.2-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/sbin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/sbin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_6c733/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_6c733.dir/build.make CMakeFiles/cmTC_6c733.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF'
+        Building C object CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o
+        /usr/sbin/cc   -v -o CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6c733.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccSz6EFq.s
+        GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 91e980a230f7d2e39f93577991713edd
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o /tmp/ccSz6EFq.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_6c733
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c733.dir/link.txt --verbose=1
+        /usr/sbin/cc  -v -Wl,-v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -o cmTC_6c733
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6c733' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6c733.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCU3jn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6c733 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20240910
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCU3jn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6c733 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.43.0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6c733' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6c733.'
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_6c733/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_6c733.dir/build.make CMakeFiles/cmTC_6c733.dir/build]
+        ignore line: [make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-i6p4pF']
+        ignore line: [Building C object CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/sbin/cc   -v -o CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6c733.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccSz6EFq.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 91e980a230f7d2e39f93577991713edd]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o /tmp/ccSz6EFq.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_6c733]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c733.dir/link.txt --verbose=1]
+        ignore line: [/usr/sbin/cc  -v -Wl -v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -o cmTC_6c733]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6c733' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6c733.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCU3jn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6c733 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMCU3jn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6c733] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240910]
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMCU3jn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6c733 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_6c733.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/sbin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/sbin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43.0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_f9422/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_f9422.dir/build.make CMakeFiles/cmTC_f9422.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk'
+        Building CXX object CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/sbin/c++   -v -o CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f9422.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccjkzoSp.s
+        GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: fce5a105c47978e141f61a441742cadf
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjkzoSp.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f9422
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9422.dir/link.txt --verbose=1
+        /usr/sbin/c++  -v -Wl,-v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f9422
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9422' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f9422.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LMhm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f9422 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20240910
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LMhm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f9422 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.43.0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9422' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f9422.'
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1] ==> [/usr/include/c++/14.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/14.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward] ==> [/usr/include/c++/14.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14.2.1;/usr/include/c++/14.2.1/x86_64-pc-linux-gnu;/usr/include/c++/14.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_f9422/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_f9422.dir/build.make CMakeFiles/cmTC_f9422.dir/build]
+        ignore line: [make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-gOhsgk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/sbin/c++   -v -o CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f9422.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccjkzoSp.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: fce5a105c47978e141f61a441742cadf]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjkzoSp.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f9422]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9422.dir/link.txt --verbose=1]
+        ignore line: [/usr/sbin/c++  -v -Wl -v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f9422]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9422' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f9422.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LMhm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f9422 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7LMhm9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f9422] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240910]
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LMhm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f9422 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f9422.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/sbin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/sbin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43.0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:15 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_bbfd6/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_bbfd6.dir/build.make CMakeFiles/cmTC_bbfd6.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl'
+        Building C object CMakeFiles/cmTC_bbfd6.dir/src.c.o
+        /usr/sbin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_bbfd6.dir/src.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl/src.c
+        Linking C executable cmTC_bbfd6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbfd6.dir/link.txt --verbose=1
+        /usr/sbin/cc CMakeFiles/cmTC_bbfd6.dir/src.c.o -o cmTC_bbfd6
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-1ZJDGl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:16 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_8115a/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_8115a.dir/build.make CMakeFiles/cmTC_8115a.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv'
+        Building C object CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o
+        /usr/sbin/cc   -fopenmp -v -o CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v -D_REENTRANT /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_8115a.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cctn5Vqr.s
+        GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 91e980a230f7d2e39f93577991713edd
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o /tmp/cctn5Vqr.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_8115a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8115a.dir/link.txt --verbose=1
+        /usr/sbin/cc  -fopenmp -v CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -o cmTC_8115a  -v
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8115a' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8115a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2a0Zo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8115a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8115a' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8115a.'
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:282 (message)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:16 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_8115a/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_8115a.dir/build.make CMakeFiles/cmTC_8115a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv']
+        ignore line: [Building C object CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o]
+        ignore line: [/usr/sbin/cc   -fopenmp -v -o CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv/OpenMPTryFlag.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v -D_REENTRANT /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-s5X5Tv/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_8115a.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cctn5Vqr.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 91e980a230f7d2e39f93577991713edd]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o /tmp/cctn5Vqr.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.']
+        ignore line: [Linking C executable cmTC_8115a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8115a.dir/link.txt --verbose=1]
+        ignore line: [/usr/sbin/cc  -fopenmp -v CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -o cmTC_8115a  -v]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8115a' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8115a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF2a0Zo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8115a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccF2a0Zo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8115a] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [CMakeFiles/cmTC_8115a.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:16 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_5214d/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_5214d.dir/build.make CMakeFiles/cmTC_5214d.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk'
+        Building CXX object CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o
+        /usr/sbin/c++   -fopenmp -v -o CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_5214d.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccifTnjP.s
+        GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: fce5a105c47978e141f61a441742cadf
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o /tmp/ccifTnjP.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_5214d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5214d.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -v CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -o cmTC_5214d  -v
+        Using built-in specs.
+        COLLECT_GCC=/usr/sbin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5214d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5214d.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAfMYbn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5214d /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5214d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5214d.'
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:282 (message)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:16 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_5214d/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_5214d.dir/build.make CMakeFiles/cmTC_5214d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/sbin/c++   -fopenmp -v -o CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk/OpenMPTryFlag.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-Apn6yk/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_5214d.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccifTnjP.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: fce5a105c47978e141f61a441742cadf]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o /tmp/ccifTnjP.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.']
+        ignore line: [Linking CXX executable cmTC_5214d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5214d.dir/link.txt --verbose=1]
+        ignore line: [/usr/sbin/c++  -fopenmp -v CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -o cmTC_5214d  -v]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/sbin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5214d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5214d.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAfMYbn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5214d /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccAfMYbn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5214d] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [CMakeFiles/cmTC_5214d.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:16 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_4b344/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_4b344.dir/build.make CMakeFiles/cmTC_4b344.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L'
+        Building C object CMakeFiles/cmTC_4b344.dir/OpenMPCheckVersion.c.o
+        /usr/sbin/cc   -fopenmp -o CMakeFiles/cmTC_4b344.dir/OpenMPCheckVersion.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L/OpenMPCheckVersion.c
+        Linking C executable cmTC_4b344
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b344.dir/link.txt --verbose=1
+        /usr/sbin/cc  -fopenmp CMakeFiles/cmTC_4b344.dir/OpenMPCheckVersion.c.o -o cmTC_4b344
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-49Se0L'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:16 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_8f321/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_8f321.dir/build.make CMakeFiles/cmTC_8f321.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk'
+        Building CXX object CMakeFiles/cmTC_8f321.dir/OpenMPCheckVersion.cpp.o
+        /usr/sbin/c++   -fopenmp -o CMakeFiles/cmTC_8f321.dir/OpenMPCheckVersion.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_8f321
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f321.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp CMakeFiles/cmTC_8f321.dir/OpenMPCheckVersion.cpp.o -o cmTC_8f321
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-cSaJyk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "ncnn/CMakeLists.txt:353 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_14c77/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_14c77.dir/build.make CMakeFiles/cmTC_14c77.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V'
+        Building CXX object CMakeFiles/cmTC_14c77.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX  -fopenmp    -mavx -o CMakeFiles/cmTC_14c77.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V/src.cxx
+        Linking CXX executable cmTC_14c77
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14c77.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp  CMakeFiles/cmTC_14c77.dir/src.cxx.o -o cmTC_14c77
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-yyNP4V'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "ncnn/CMakeLists.txt:356 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_FMA"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_FMA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_24b72/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_24b72.dir/build.make CMakeFiles/cmTC_24b72.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT'
+        Building CXX object CMakeFiles/cmTC_24b72.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_FMA  -fopenmp -mfma -mf16c -o CMakeFiles/cmTC_24b72.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT/src.cxx
+        Linking CXX executable cmTC_24b72
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24b72.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c CMakeFiles/cmTC_24b72.dir/src.cxx.o -o cmTC_24b72
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-r3biPT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "ncnn/CMakeLists.txt:358 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_XOP"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_XOP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_5e721/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_5e721.dir/build.make CMakeFiles/cmTC_5e721.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69'
+        Building CXX object CMakeFiles/cmTC_5e721.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_XOP  -fopenmp -mfma -mf16c   -mxop -o CMakeFiles/cmTC_5e721.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69/src.cxx
+        Linking CXX executable cmTC_5e721
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e721.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c CMakeFiles/cmTC_5e721.dir/src.cxx.o -o cmTC_5e721
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-NHZT69'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "ncnn/CMakeLists.txt:359 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_F16C"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_F16C"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_eb5cd/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_eb5cd.dir/build.make CMakeFiles/cmTC_eb5cd.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW'
+        Building CXX object CMakeFiles/cmTC_eb5cd.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_F16C  -fopenmp -mfma -mf16c   -mf16c -o CMakeFiles/cmTC_eb5cd.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW/src.cxx
+        Linking CXX executable cmTC_eb5cd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb5cd.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c CMakeFiles/cmTC_eb5cd.dir/src.cxx.o -o cmTC_eb5cd
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-08WwPW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "ncnn/CMakeLists.txt:360 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX2"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_9662e/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_9662e.dir/build.make CMakeFiles/cmTC_9662e.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl'
+        Building CXX object CMakeFiles/cmTC_9662e.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX2  -fopenmp -mfma -mf16c   -mfma -mf16c -mavx2 -o CMakeFiles/cmTC_9662e.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl/src.cxx
+        Linking CXX executable cmTC_9662e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9662e.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c CMakeFiles/cmTC_9662e.dir/src.cxx.o -o cmTC_9662e
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-o6Rayl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "ncnn/CMakeLists.txt:361 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX512"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX512"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_c6bb6/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_c6bb6.dir/build.make CMakeFiles/cmTC_c6bb6.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0'
+        Building CXX object CMakeFiles/cmTC_c6bb6.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512  -fopenmp -mfma -mf16c   -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -o CMakeFiles/cmTC_c6bb6.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0/src.cxx
+        Linking CXX executable cmTC_c6bb6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6bb6.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c CMakeFiles/cmTC_c6bb6.dir/src.cxx.o -o cmTC_c6bb6
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-vNPRM0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "ncnn/CMakeLists.txt:364 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX_VNNI"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_505b2/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_505b2.dir/build.make CMakeFiles/cmTC_505b2.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk'
+        Building CXX object CMakeFiles/cmTC_505b2.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI  -fopenmp -mfma -mf16c -mavx2 -mavxvnni -o CMakeFiles/cmTC_505b2.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk/src.cxx
+        Linking CXX executable cmTC_505b2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_505b2.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c -mavx2 -mavxvnni CMakeFiles/cmTC_505b2.dir/src.cxx.o -o cmTC_505b2
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5WzHVk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "ncnn/CMakeLists.txt:367 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX512_VNNI"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX512_VNNI"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_0a9fe/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_0a9fe.dir/build.make CMakeFiles/cmTC_0a9fe.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD'
+        Building CXX object CMakeFiles/cmTC_0a9fe.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_VNNI  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512vnni -o CMakeFiles/cmTC_0a9fe.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD/src.cxx
+        Linking CXX executable cmTC_0a9fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a9fe.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512vnni CMakeFiles/cmTC_0a9fe.dir/src.cxx.o -o cmTC_0a9fe
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-iCZuYD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "ncnn/CMakeLists.txt:370 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX512_BF16"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX512_BF16"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_92ac4/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_92ac4.dir/build.make CMakeFiles/cmTC_92ac4.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL'
+        Building CXX object CMakeFiles/cmTC_92ac4.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_BF16  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512bf16 -o CMakeFiles/cmTC_92ac4.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL/src.cxx
+        Linking CXX executable cmTC_92ac4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ac4.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512bf16 CMakeFiles/cmTC_92ac4.dir/src.cxx.o -o cmTC_92ac4
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-5Rb8vL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "ncnn/CMakeLists.txt:373 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test NCNN_COMPILER_SUPPORT_X86_AVX512_FP16"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "NCNN_COMPILER_SUPPORT_X86_AVX512_FP16"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b70ca/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_b70ca.dir/build.make CMakeFiles/cmTC_b70ca.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9'
+        Building CXX object CMakeFiles/cmTC_b70ca.dir/src.cxx.o
+        /usr/sbin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_FP16  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512fp16 -o CMakeFiles/cmTC_b70ca.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9/src.cxx
+        Linking CXX executable cmTC_b70ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b70ca.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512fp16 CMakeFiles/cmTC_b70ca.dir/src.cxx.o -o cmTC_b70ca
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-X4YEu9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "ncnn/src/CMakeLists.txt:184 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_8b9bb/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_8b9bb.dir/build.make CMakeFiles/cmTC_8b9bb.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q'
+        Building CXX object CMakeFiles/cmTC_8b9bb.dir/src.cxx.o
+        /usr/sbin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fopenmp  -std=gnu++11   -fvisibility=hidden -o CMakeFiles/cmTC_8b9bb.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q/src.cxx
+        Linking CXX executable cmTC_8b9bb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b9bb.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp  CMakeFiles/cmTC_8b9bb.dir/src.cxx.o -o cmTC_8b9bb
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xG3u5Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "ncnn/src/CMakeLists.txt:184 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b3247/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_b3247.dir/build.make CMakeFiles/cmTC_b3247.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6'
+        Building CXX object CMakeFiles/cmTC_b3247.dir/src.cxx.o
+        /usr/sbin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fopenmp  -std=gnu++11   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b3247.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6/src.cxx
+        Linking CXX executable cmTC_b3247
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3247.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp  CMakeFiles/cmTC_b3247.dir/src.cxx.o -o cmTC_b3247
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-CNpfh6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/usr/share/cmake/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "ncnn/src/CMakeLists.txt:184 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_79339/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_79339.dir/build.make CMakeFiles/cmTC_79339.dir/build
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6'
+        Building CXX object CMakeFiles/cmTC_79339.dir/src.cxx.o
+        /usr/sbin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fopenmp  -std=gnu++11 -o CMakeFiles/cmTC_79339.dir/src.cxx.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6/src.cxx
+        /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6/src.cxx: In function ‘int main()’:
+        /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                         ~~~~~~~~^~
+        /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_79339
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79339.dir/link.txt --verbose=1
+        /usr/sbin/c++  -fopenmp  CMakeFiles/cmTC_79339.dir/src.cxx.o -o cmTC_79339
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/CMakeScratch/TryCompile-xsd4j6'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/sbin/c++   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/c++ -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:47 (check_ipo_supported)"
+    directories:
+      source: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile
+        /usr/bin/cmake -S/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src -B/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/sbin/make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/sbin/gcc-ar" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/sbin/gcc-ranlib" libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/sbin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/sbin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/sbin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        make[2]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...

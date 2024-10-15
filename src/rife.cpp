@@ -121,11 +121,7 @@ static void load_param_model(ncnn::Net& net, const std::string& modeldir, const 
 }
 #endif
 
-#if _WIN32
-int RIFE::load(const std::wstring& modeldir)
-#else
-int RIFE::load(const std::string& modeldir)
-#endif
+int RIFE::load(const std::filesystem::path& modeldir)
 {
     ncnn::Option opt;
     opt.num_threads = num_threads;

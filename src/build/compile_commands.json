@@ -1,0 +1,254 @@
+[
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/GenericCodeGen/CodeGen.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/CodeGen.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/GenericCodeGen/Link.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/GenericCodeGen/Link.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/GenericCodeGen.dir/GenericCodeGen/Link.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/glslang_tab.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/attribute.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/attribute.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/attribute.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Constant.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Constant.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Constant.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/iomapper.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/iomapper.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/InfoSink.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/InfoSink.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Initialize.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Initialize.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/IntermTraverse.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/IntermTraverse.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Intermediate.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ParseContextBase.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseContextBase.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ParseHelper.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ParseHelper.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/PoolAlloc.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/PoolAlloc.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/RemoveTree.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/RemoveTree.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Scan.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Scan.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Scan.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/ShaderLang.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/ShaderLang.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SpirvIntrinsics.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/SpirvIntrinsics.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/SpirvIntrinsics.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SpirvIntrinsics.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/SymbolTable.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/SymbolTable.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Versions.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/Versions.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Versions.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/intermOut.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/intermOut.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/limits.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/limits.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/limits.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/linkValidate.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/linkValidate.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/parseConst.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/parseConst.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/reflection.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/reflection.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/reflection.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/Pp.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpAtom.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpContext.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpScanner.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/preprocessor/PpTokens.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/propagateNoContraction.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/CInterface/glslang_c_interface.cpp",
+  "output": "ncnn/glslang/glslang/CMakeFiles/glslang.dir/CInterface/glslang_c_interface.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/glslang/OSDependent/Unix",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/OSDependent.dir/ossource.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/glslang/OSDependent/Unix/ossource.cpp",
+  "output": "ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/ossource.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/OGLCompilersDLL",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/OGLCompilersDLL/InitializeDll.cpp",
+  "output": "ncnn/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/GlslangToSpv.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/GlslangToSpv.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/GlslangToSpv.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/InReadableOrder.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/InReadableOrder.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/InReadableOrder.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/Logger.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/Logger.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/Logger.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/Logger.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvBuilder.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvBuilder.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvBuilder.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvPostProcess.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvPostProcess.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvPostProcess.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/doc.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/doc.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/doc.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/doc.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/SpvTools.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvTools.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/SpvTools.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/SpvTools.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/disassemble.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/disassemble.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/disassemble.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/disassemble.cpp.o"
+},
+{
+  "directory": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/ncnn/glslang/SPIRV",
+  "command": "/usr/sbin/c++ -DENABLE_OPT=0 -DGLSLANG_OSINCLUDE_UNIX -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/.. -I/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/include  -fopenmp -O3 -DNDEBUG -std=c++11 -flto=auto -fno-fat-lto-objects -fPIC -Wall -Wmaybe-uninitialized -Wuninitialized -Wunused -Wunused-local-typedefs -Wunused-parameter -Wunused-value -Wunused-variable -Wunused-but-set-parameter -Wunused-but-set-variable -fno-exceptions -Wno-reorder -fno-rtti -Werror=deprecated-copy -o CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o -c /home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp",
+  "file": "/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/ncnn/glslang/SPIRV/CInterface/spirv_c_interface.cpp",
+  "output": "ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/CInterface/spirv_c_interface.cpp.o"
+}
+]

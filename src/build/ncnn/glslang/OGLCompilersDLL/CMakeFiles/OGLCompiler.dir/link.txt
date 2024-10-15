@@ -1,0 +1,2 @@
+"/usr/sbin/gcc-ar" qc libOGLCompiler.a CMakeFiles/OGLCompiler.dir/InitializeDll.cpp.o
+"/usr/sbin/gcc-ranlib" libOGLCompiler.a

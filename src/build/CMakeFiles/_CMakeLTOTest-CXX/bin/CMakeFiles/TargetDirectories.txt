@@ -1,0 +1,4 @@
+/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/k4yt3x/projects/programs/librife-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
