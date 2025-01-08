@@ -65,7 +65,7 @@ endif()
 
 if(USE_SYSTEM_NCNN)
     find_package(ncnn REQUIRED)
-else()
+elseif(NOT TARGET ncnn)
     option(NCNN_INSTALL_SDK "" OFF)
     option(NCNN_PIXEL_ROTATE "" OFF)
     option(NCNN_PIXEL_AFFINE "" OFF)
@@ -197,17 +197,13 @@ rife_add_shader(warp.comp)
 rife_add_shader(warp_pack4.comp)
 rife_add_shader(warp_pack8.comp)
 
-add_custom_target(generate-spirv DEPENDS ${SHADER_SPV_HEX_FILES})
-
-add_library(librife-ncnn-vulkan SHARED rife.cpp warp.cpp)
+add_library(librife-ncnn-vulkan SHARED rife.cpp warp.cpp ${SHADER_SPV_HEX_FILES})
 target_compile_definitions(librife-ncnn-vulkan PRIVATE LIBRIFE_EXPORTS)
 if(WIN32)
     set_target_properties(librife-ncnn-vulkan PROPERTIES OUTPUT_NAME librife-ncnn-vulkan)
 else()
     set_target_properties(librife-ncnn-vulkan PROPERTIES OUTPUT_NAME rife-ncnn-vulkan)
 endif()
-
-add_dependencies(librife-ncnn-vulkan generate-spirv)
 
 # Link libraries
 target_link_libraries(librife-ncnn-vulkan PUBLIC ${Vulkan_LIBRARY})
