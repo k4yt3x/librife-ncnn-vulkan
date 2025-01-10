@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.9)
 project(librife-ncnn-vulkan)
 
+include(GNUInstallDirs)
+
 # Set policies
 cmake_policy(SET CMP0091 NEW)
 set(CMAKE_POLICY_DEFAULT_CMP0091 NEW)
@@ -258,22 +260,22 @@ set_target_properties(librife-ncnn-vulkan PROPERTIES POSITION_INDEPENDENT_CODE O
 # Install the library
 install(TARGETS librife-ncnn-vulkan
     EXPORT rifeTargets
-    ARCHIVE DESTINATION lib
-    LIBRARY DESTINATION lib
-    RUNTIME DESTINATION bin
+    ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+    LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+    RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
 )
 
 # Install the header file
-install(FILES rife.h DESTINATION include)
+install(FILES rife.h DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
 
 # Install the generated shader headers
-install(FILES ${SHADER_SPV_HEX_FILES} DESTINATION include)
+install(FILES ${SHADER_SPV_HEX_FILES} DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
 
 # Install export targets
 install(EXPORT rifeTargets
     FILE rifeTargets.cmake
     NAMESPACE rife::
-    DESTINATION lib/cmake/rife
+    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/rife"
 )
 
 # Create and install the package configuration file
@@ -287,12 +289,11 @@ write_basic_package_version_file(
 configure_package_config_file(
     "${CMAKE_CURRENT_SOURCE_DIR}/rifeConfig.cmake.in"
     "${CMAKE_CURRENT_BINARY_DIR}/rifeConfig.cmake"
-    INSTALL_DESTINATION lib/cmake/rife
+    INSTALL_DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/rife"
 )
 
 install(FILES
     "${CMAKE_CURRENT_BINARY_DIR}/rifeConfig.cmake"
     "${CMAKE_CURRENT_BINARY_DIR}/rifeConfigVersion.cmake"
-    DESTINATION lib/cmake/rife
+    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/rife"
 )
-
