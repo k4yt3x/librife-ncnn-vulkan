@@ -44,9 +44,9 @@ RIFE::RIFE(int gpuid, bool _tta_mode, bool _tta_temporal_mode, bool _uhd_mode, i
     num_threads = _num_threads;
     rife_v2 = _rife_v2;
     rife_v4 = _rife_v4;
-    // for version < 4.6, this rife_padding will be 32
-    // for version 4.25 & 4.26, this should be 64
-    // for 4.25-lite, this should be 128
+    // for versions < 4.6, the padding should be 32
+    // for versions 4.25 and 4.26, the padding should be 64
+    // for 4.25-lite, the padding should be 128
     rife_padding = _padding;
 }
 
@@ -1235,8 +1235,7 @@ int RIFE::process_cpu(const ncnn::Mat& in0image, const ncnn::Mat& in1image, floa
 
     ncnn::Option opt = flownet.opt;
 
-    // the version > 4.6 changed the padding logic
-    // so I add a padding factor to adjust it
+    // RIFE models version > 4.6 has different padding logic
     int w_padded = (w + rife_padding - 1) / rife_padding * rife_padding;
     int h_padded = (h + rife_padding - 1) / rife_padding * rife_padding;
 
