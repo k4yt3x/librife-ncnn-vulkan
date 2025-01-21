@@ -24,7 +24,7 @@
 
 DEFINE_LAYER_CREATOR(Warp)
 
-RIFE::RIFE(int gpuid, bool _tta_mode, bool _tta_temporal_mode, bool _uhd_mode, int _num_threads, bool _rife_v2, bool _rife_v4)
+RIFE::RIFE(int gpuid, bool _tta_mode, bool _tta_temporal_mode, bool _uhd_mode, int _num_threads, bool _rife_v2, bool _rife_v4, int _padding)
 {
     vkdev = gpuid == -1 ? 0 : ncnn::get_gpu_device(gpuid);
 
@@ -44,6 +44,10 @@ RIFE::RIFE(int gpuid, bool _tta_mode, bool _tta_temporal_mode, bool _uhd_mode, i
     num_threads = _num_threads;
     rife_v2 = _rife_v2;
     rife_v4 = _rife_v4;
+    // for versions < 4.6, the padding should be 32
+    // for versions 4.25 and 4.26, the padding should be 64
+    // for 4.25-lite, the padding should be 128
+    rife_padding = _padding;
 }
 
 RIFE::~RIFE()
@@ -1231,9 +1235,9 @@ int RIFE::process_cpu(const ncnn::Mat& in0image, const ncnn::Mat& in1image, floa
 
     ncnn::Option opt = flownet.opt;
 
-    // pad to 32n
-    int w_padded = (w + 31) / 32 * 32;
-    int h_padded = (h + 31) / 32 * 32;
+    // RIFE models version > 4.6 has different padding logic
+    int w_padded = (w + rife_padding - 1) / rife_padding * rife_padding;
+    int h_padded = (h + rife_padding - 1) / rife_padding * rife_padding;
 
     ncnn::Mat in0;
     ncnn::Mat in1;
@@ -2491,9 +2495,9 @@ int RIFE::process_v4(const ncnn::Mat& in0image, const ncnn::Mat& in1image, float
     opt.workspace_vkallocator = blob_vkallocator;
     opt.staging_vkallocator = staging_vkallocator;
 
-    // pad to 32n
-    int w_padded = (w + 31) / 32 * 32;
-    int h_padded = (h + 31) / 32 * 32;
+    // pad
+    int w_padded = (w + rife_padding - 1) / rife_padding * rife_padding;
+    int h_padded = (h + rife_padding - 1) / rife_padding * rife_padding;
 
     const size_t in_out_tile_elemsize = opt.use_fp16_storage ? 2u : 4u;
 
@@ -3221,9 +3225,9 @@ int RIFE::process_v4_cpu(const ncnn::Mat& in0image, const ncnn::Mat& in1image, f
 
     ncnn::Option opt = flownet.opt;
 
-    // pad to 32n
-    int w_padded = (w + 31) / 32 * 32;
-    int h_padded = (h + 31) / 32 * 32;
+    // pad
+    int w_padded = (w + rife_padding - 1) / rife_padding * rife_padding;
+    int h_padded = (h + rife_padding - 1) / rife_padding * rife_padding;
 
     ncnn::Mat in0;
     ncnn::Mat in1;

@@ -22,7 +22,7 @@
 class LIBRIFE_API RIFE
 {
 public:
-    RIFE(int gpuid, bool tta_mode = false, bool tta_temporal_mode = false, bool uhd_mode = false, int num_threads = 1, bool rife_v2 = false, bool rife_v4 = false);
+    RIFE(int gpuid, bool tta_mode = false, bool tta_temporal_mode = false, bool uhd_mode = false, int num_threads = 1, bool rife_v2 = false, bool rife_v4 = false, int padding = 32);
     ~RIFE();
 
     int load(const std::filesystem::path& modeldir);
@@ -56,6 +56,7 @@ private:
     int num_threads;
     bool rife_v2;
     bool rife_v4;
+    int rife_padding;
 };
 
 #endif // RIFE_H
